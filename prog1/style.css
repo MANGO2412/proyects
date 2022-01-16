@@ -1,0 +1,189 @@
+/* Add your styles here */
+body{
+    background-color: #353030;
+    color: white;
+  }
+  
+  
+  #home{
+    width: 90%;
+    margin: auto;
+  }
+  
+  
+  
+  /* event bubling */
+  .container{
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    border: 1px solid white;
+    box-sizing: border-box;
+  }
+
+  /* class invisible */
+  .invisible{
+      display: none;
+  }
+
+
+  .btn{
+      border: 1px solid white;
+      padding: 10px;
+      color: white;
+      background-color: #000000;
+  }
+
+  .btn:hover{
+      opacity: .6;
+  }
+  
+  @keyframes move{
+    0%{
+      top: 40px;
+  
+    }
+    20%{
+      top: 30px;
+    }
+  
+    30%{
+      top: 20px;
+    }
+    40%{
+     top: 40px;
+    }
+    50%{
+      top: 50px;
+    }
+    60%{
+      top: 60px;
+    }
+  
+    100%{
+      top: 40px;
+    }
+  }
+  
+  @keyframes movelem1{
+    0%{
+     background-color: black;
+     transform: rotate(0);
+    }
+    20%{
+     background-color: rgb(109, 52, 52);
+    }
+    40%{
+      background-color: #3821a0;
+    }
+    60%{
+       background-color: #6b4b1c;
+    }80%{
+      background-color: #4d3109;
+    }
+    100%{
+     background-color: #3d2525;
+     transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes element2{
+    0%{
+     background-color: #144585;
+     transform: rotate(0);
+    }
+    20%{
+     background-color: #3eaa23;
+    }
+    40%{
+      background-color: #286d5e;
+    }
+    60%{
+       background-color: #c08326;
+    }80%{
+      background-color: #4d094a;
+    }
+    100%{
+     background-color: #92c540;
+     transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes movelem3{
+    0%{
+     background-color: #7b92a5;
+     transform: rotate(0);
+    }
+    20%{
+     background-color: #4b8f1d;
+    }
+    40%{
+      background-color: #e69a43;
+    }
+    60%{
+       background-color: #e4ba7c;
+    }80%{
+      background-color: #4d093c;
+    }
+    100%{
+     background-color: #b26ae2;
+     transform: rotate(360deg);
+    }
+  }
+  
+  .Elem1{
+    width: 250px;
+    background-color: black;
+    height: 250px;
+    margin: 20px auto;
+    border: 1px solid white;
+    animation: movelem1 1.9s infinite;
+  }
+  
+  
+  .Elem2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 20px auto;
+    animation: element2 3s infinite;
+  }
+  
+  
+  .Elem3{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 20px auto;
+    animation: movelem3 3s infinite;
+  }
+  
+  .Elem3 p{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    animation: move 3s infinite;
+  }
+  
+  
+
+  /* menu */
+.menu{
+    margin: 10px auto;
+    border: 1px solid white;
+    align-content: center;
+    display: flex;
+    width:  68%;
+    height: 68%;
+
+}
+
+
+
+
+
+
+
+
+
